@@ -5,7 +5,8 @@ public class Solution {
     public static int d = 27;
 
     public static void main(String[] args) {
-        int x = new sqr(5);
+        int x = sqr(5);
+        System.out.println(x);
     }
     
     public static int sqr(int n){
