@@ -2,13 +2,14 @@
 // Присвой каждому клону владельца (owner).
 public class Solution {
     public static void main(String[] args) {
-        Clone1 clone1 = new Clone1()
-        Clone2 clone2 = new Clone2()
-        Clone3 clone3 = new Clone3()
+        Clone1 clone1 = new Clone1();
+        Clone2 clone2 = new Clone2();
+        Clone3 clone3 = new Clone3();
         Dias dias = new Dias();
         
-        owner = "A";
-        System.out.prinln(clone1.owner)
+        clone1.owner = new Dias();
+        clone2.owner = new Dias();
+        clone3.owner = new Dias();
         
     }
     public static class Clone1 {
